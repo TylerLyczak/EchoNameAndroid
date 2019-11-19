@@ -78,4 +78,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
+    <TextView
+        android:id="@+id/echoChangeText"
+        android:layout_width="277dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="93dp"
+        android:gravity="center"
+        android:text="Echoed Text Will Appear Here..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
